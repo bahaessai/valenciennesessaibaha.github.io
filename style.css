@@ -1,0 +1,199 @@
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap');
+
+html 
+{
+    scroll-behavior: smooth;
+}
+body 
+{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+nav {
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 100%;
+    opacity: 0.7;
+    top: 0;
+ 
+ }
+ul
+{
+    margin: 0;
+    padding: 0;
+}
+li
+{
+    list-style-type: none;
+}
+h1
+{
+    padding-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 160px;
+    text-shadow: 1px 3px 2px black;
+    color: antiquewhite;
+    top: 60px;
+    font-size: 5em;
+    margin-top: 190px;
+}
+
+
+header li 
+{
+float: right;
+font-size: 1.2em;
+}
+header li a {
+    color: white;
+    text-align: center;
+    padding: 50px 25px;
+}
+
+#logo{
+    font-family: 'Dancing Script' , cursive;
+    font-weight: bold;
+    float: left;
+
+}
+.imagetransport img {
+    height: 115px;
+    width: 250px; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+} 
+
+#imagePrincipale{
+    padding-top: 0.1%;
+    background: url( media/Mairie.jpg) no-repeat fixed 50% 50%; 
+    background-size: cover;
+    height: 799px;
+    
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.imagehotel img {
+    height: 115px;
+    width: 250px; 
+    border-radius: 10px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+} 
+.imagesp img {
+    height: 115px;
+    width: 250px; 
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 1px rgba(0,0,0,0.7);
+} 
+#hotelcv{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#stadepiscine{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+#moyens{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 30px 10%;
+}
+.imagesp h5{
+font-family: 'Dancing Script', cursive;
+text-align: center;
+font-size: 1.2em;
+margin: 15px;
+font-weight: 100;
+}
+.imagesp img:hover {
+    opacity: 0.8;
+    transform: scale(1.07);
+    transition: 0.5s ease-in-out;
+}
+.imagehotel h5{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    font-size: 1.2em;
+    margin: 15px;
+    font-weight: 100;
+    }
+.imagehotel img:hover {
+        opacity: 0.8;
+        transform: scale(1.07);
+        transition: 0.5s ease-in-out;
+}
+.imagetransport h5{
+        font-family: 'Dancing Script', cursive;
+        text-align: center;
+        font-size: 1.2em;
+        margin: 15px;
+        font-weight: 100;
+        }
+.imagetransport img:hover {
+            opacity: 0.8;
+            transform: scale(1.07);
+            transition: 0.5s ease-in-out;
+}
+#presentation p {
+text-align: center;
+font-size: 1.2em;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding: 30px 0 20px 0;
+}
+footer h2{
+    color: aliceblue;
+
+}
+#copyright{
+    color: aliceblue;
+    text-align: left;
+    margin-left: 35px;
+
+}
+#icons i{
+    color: aliceblue;
+    margin: 5px;
+
+}
+
+#icons{
+    text-align: right;
+    margin-right: 35px;
+    margin-bottom: 20px;
+ 
+}
+
+
+form {
+margin: 0 auto;
+max-width: 900px;
+}
+input, textarea,button {
+width: 55%;
+margin: 1px 0;
+}
+textarea {
+    height: 120px;
+}
+button:hover {
+    background-color: blueviolet;
+cursor: pointer;
+color: brown;
+transition: 0.3s ease-in-out;
+}
